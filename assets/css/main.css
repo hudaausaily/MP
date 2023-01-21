@@ -39,6 +39,12 @@ a {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.btn-first-time{
+  color: #000;
+}
+.btn-first-time:hover{
+  color:#F71610;
+}
 
 a:hover {
   color: #F5E79A;
@@ -199,6 +205,7 @@ p:last-child {
 h2{
   color: white;
 }
+
 
 .circle:before {
   content: '';
@@ -477,9 +484,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   margin-bottom: 80px;
 }
 
-.breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
-}
+
 
 .breadcrumb-text p {
   color: #F5E79A;
@@ -494,6 +499,11 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   color: #fff;
   margin: 0;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.breadcrumb-text h6{
+  color:#F5E79A ;
+  font-weight: 400;
 }
 
 .breadcrumb-section {
@@ -503,7 +513,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   position: relative;
   z-index: 1;
   background-attachment: fixed;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .breadcrumb-section:after {
@@ -1482,7 +1492,7 @@ input[type="submit"] {
   font-size: 15px;
   border: none !important;
   cursor: pointer;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border-radius: 3px;
 }
 
@@ -2189,7 +2199,7 @@ a.video-play-btn {
 }
 
 .feature-bg:after {
-  background-image: url(../img/feature-bg.jpg);
+  background-image: url(../img/abt.jpg);
   position: absolute;
   right: 0;
   top: 0;
@@ -2283,8 +2293,15 @@ ul.social-link-team li a {
 # Contact Page Styles
 
 ----------------------------------------------------------------------------- */
+
+.contact-from-section .row{
+  display: flex;
+  justify-content: center;
+
+}
 .form-title {
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .form-title h2 {
@@ -2346,18 +2363,11 @@ ul.social-link-team li a {
   margin: 0;
 }
 
-.find-location p {
-  color: #fff;
-  font-size: 40px;
-  margin: 0;
-  font-weight: 600;
-  padding: 95px 0;
+.form-submit-button{
+  display: flex;
+  justify-content: center;
 }
 
-.find-location p i {
-  margin-right: 10px;
-  color: #F5E79A;
-}
 
 #form_status span {
   color: #fff;
